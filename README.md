@@ -1,5 +1,4 @@
-# taa_kernel_module
-## Compilation
+# Compilation
 ### Build without extra debug logs
 make
 ### Build with extra debug logs
@@ -7,13 +6,13 @@ make debug
 ### Clean Build
 make clean
 
-## Load & Unload
+# Load & Unload
 ### Load taa module
 sudo insmod taa.ko
 ### Unload taa module
 sudo rmmod taa
 
-## Debug logs
+# Debug logs
 ### clear previous logs
 sudo dmesg -C
 ### Show debug logs
