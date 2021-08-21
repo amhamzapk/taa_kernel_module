@@ -62,10 +62,10 @@ static int thread_scheduler(void *unused) {
 
 		// Load sharing
 #ifdef ACCURACY_REQUIRED
-			schedule_timeout (2000);
+		schedule_timeout (2000);
 #else
-			usleep_range(25, 50);
-			usleep_range(25, 50);
+		usleep_range(25, 50);
+		usleep_range(25, 50);
 #endif
 
 		// Check if detection count exhausted

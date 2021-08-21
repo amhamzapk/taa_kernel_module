@@ -64,9 +64,9 @@ static inline void xend(void);
  * feature thresholds structure
  */
 typedef struct {
-    int max;
-    int avrg;
-    int min;
+	int max;
+	int avrg;
+	int min;
 	int max2;
 	int idx;
 	int idx2;
