@@ -13,7 +13,7 @@ sudo insmod taa.ko
 sudo rmmod taa
 
 # Debug logs
-### clear previous logs
+### Clear previous logs
 sudo dmesg -C
 ### Show debug logs
 dmesg
